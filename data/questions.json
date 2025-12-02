@@ -1,0 +1,27 @@
+[
+  {
+    "id": "q1",
+    "prompt": "Write a function to reverse a string in Python.",
+    "ideal_answer": "def reverse_string(s): return s[::-1]"
+  },
+  {
+    "id": "q2",
+    "prompt": "Write a function to check if a number is even.",
+    "ideal_answer": "def is_even(n): return n % 2 == 0"
+  },
+  {
+    "id": "q3",
+    "prompt": "Write a function to calculate the factorial of a number.",
+    "ideal_answer": "def factorial(n): return 1 if n == 0 else n * factorial(n-1)"
+  },
+  {
+    "id": "q4",
+    "prompt": "Write a function to find the maximum number in a list.",
+    "ideal_answer": "def find_max(lst): return max(lst)"
+  },
+  {
+    "id": "q5",
+    "prompt": "Write a function that returns the Nth Fibonacci number.",
+    "ideal_answer": "def fib(n): return n if n <= 1 else fib(n-1) + fib(n-2)"
+  }
+]
